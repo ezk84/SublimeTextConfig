@@ -316,7 +316,7 @@
         "font.bold": true,
         "shadow_color": [29, 29, 22],
         "shadow_offset": [0, 1]
-    },  
+    },
     {
         "class": "sidebar_label",
         "color": [207, 207, 194]
@@ -605,6 +605,12 @@
         "fg": [255, 255, 255, 230],
         "shadow_color": [0, 0, 0, 255],
         "shadow_offset": [0, -1]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["highlight_modified_tabs"],
+        "fg": [255, 161, 52]
     },
 
     /** Tab Close Buttons **/

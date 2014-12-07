@@ -22,6 +22,7 @@
 	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"bold_folder_labels": true,
 	"ignored_packages":
 	[
 		"Markdown",
