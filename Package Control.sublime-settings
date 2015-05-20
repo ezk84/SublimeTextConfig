@@ -1,9 +1,18 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"All Autocomplete",
+		"Anaconda",
+		"BracketHighlighter",
+		"Git",
+		"GitGutter",
 		"GoSublime",
+		"Markdown Preview",
 		"MarkdownEditing",
-		"SublimeCodeIntel",
+		"Package Control",
 		"SublimeREPL"
 	]
 }

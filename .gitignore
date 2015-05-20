@@ -1,3 +1,10 @@
 .SublimeREPLHistory
 Package Control.cache
 Package Control.last-run
+GoSublime-aux.sublime-settings
+GoSublime/*
+Package Control.merged-ca-bundle
+Package Control.system-ca-bundle
+Package Control.user-ca-bundle
+PythonTestRunner.last-run
+bh_unicode_properties.cache

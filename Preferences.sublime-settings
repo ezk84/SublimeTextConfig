@@ -1,5 +1,8 @@
 {
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"default_line_ending": "unix",
+	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -19,16 +22,16 @@
 		"env3",
 		".ropeproject"
 	],
-	"font_size": 10,
+	"font_size": 8,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"bold_folder_labels": true,
 	"ignored_packages":
 	[
 		"Markdown",
 		"Vintage"
 	],
 	"indent_to_bracket": true,
+	"shift_tab_unindent": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
