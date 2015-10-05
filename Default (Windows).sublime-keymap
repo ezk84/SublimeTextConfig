@@ -4,6 +4,7 @@
     { "keys": ["alt+up"], "command": "swap_line_up" },
     { "keys": ["alt+down"], "command": "swap_line_down" },
     { "keys": ["alt+m"], "command": "toggle_minimap" },
+    { "keys": ["f5"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
     // Go to left bracket
     {
         "keys": ["ctrl+alt+super+up"],
@@ -154,5 +155,46 @@
     {
         "keys": ["ctrl+alt+super+v"],
         "command": "bh_toggle_high_visibility"
-    }
+    },
+    // Run tests on current file
+    {
+        "keys": ["f8"],
+        "command": "anaconda_run_current_file_tests"
+    },
+    // Run all tests
+    {
+        "keys": ["ctrl+f8"],
+        "command": "anaconda_run_last_test"
+    },
+    // Run last test
+    {
+        "keys": ["ctrl+shift+f8"],
+        "command": "anaconda_run_project_tests"
+    },
+    {
+        "keys": ["ctrl+,", "i"],
+        "command": "repl_open",
+        "args": {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "autocomplete_server": true,
+            "cmd": {
+                "osx": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"],
+                "linux": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"],
+                "windows": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"]
+            },
+            "cwd": "$file_path",
+            "syntax": "Packages/Python/Python.tmLanguage",
+            "external_id": "python",
+            "extend_env": {
+                "PYTHONIOENCODING": "utf-8",
+                "SUBLIMEREPL_EDITOR": "$editor"
+            }
+        }
+    },
+    { "keys": ["ctrl+alt+pageup"], "command": "focus_neighboring_group", "args": {"forward": false} },
+    { "keys": ["ctrl+alt+pagedown"], "command": "focus_neighboring_group" },
+    { "keys": ["ctrl+alt+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+    { "keys": ["ctrl+alt+right"], "command": "move_to_neighboring_group" },
+    { "keys": ["ctrl+shift+pagedown"], "command": "new_pane" },
 ]

@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme",
 	"default_line_ending": "unix",
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -12,11 +12,13 @@
 		".project",
 		".pydevproject",
 		"*.sublime-project",
+		".coverage",
 		"*.sublime-workspace"
 	],
 	"folder_exclude_patterns":
 	[
 		".git",
+		".phpintel",
 		"__pycache__",
 		"env",
 		"env3",
@@ -27,9 +29,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
 		"Vintage"
 	],
+	"inactive_panes_dim_color": "#272822",
+	"inactive_panes_dim_strength": 0.1,
 	"indent_to_bracket": true,
 	"shift_tab_unindent": true,
 	"translate_tabs_to_spaces": true,

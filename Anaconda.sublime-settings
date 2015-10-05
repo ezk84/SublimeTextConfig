@@ -4,6 +4,10 @@
     "anaconda_linter_mark_style": "none",
     "complete_parameters ": true,
     "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
+    "validate_imports": false,
+    "jsonserver_debug": false,
+    "jsonserver_debug_port": 9999,
     "extra_paths": [
         "C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\platform\\google_appengine",
         "C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\platform\\google_appengine\\lib",

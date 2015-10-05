@@ -1,18 +1,35 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"Alignment",
 		"All Autocomplete",
 		"Anaconda",
 		"BracketHighlighter",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GitGutter",
 		"GoSublime",
+		"HTML-CSS-JS Prettify",
+		"InactivePanes",
+		"LESS",
+		"Markdown Extended",
 		"Markdown Preview",
-		"MarkdownEditing",
+		"Monokai Extended",
 		"Package Control",
+		"PackageResourceViewer",
+		"PHPIntel",
+		"Python Breakpoints",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-gotype",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
 		"SublimeREPL"
 	]
 }
